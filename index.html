@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<style>
+  .navbar {
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 15px;
+      display: flex;
+      height: fit-content;
+   
+  
+  }
+  .navlinks {
+      display: flex;
+  }
+
+  .nav-links li {
+    padding: 20px 0px 10px 0px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 13px;
+}
+  .account {
+      height: 30px;
+      width: 37px;
+  }
+  .google-logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20%;
+  }
+  .searchbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35px;
+    border-radius: 15px;
+    justify-self: center;
+    margin-top: 10px;
+    opacity: 0.5;
+  }
+  
+
+</style>
+
+<head><title>New Tab</title></head>
+<body>
+<header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li class="text"><a href="#">Gmail</a></li>
+        <li class="text"><a href="#">Images</a></li>
+        <li><a href="#"><img src="square.png"></a></li>
+        <li><a href="#"><img src="account.png" class="account"></a></li>
+      </ul>
+  </nav>
+</header>
+  <div>
+    <a href="#"><img src="google-logo.png" class="google-logo"></a>
+    <input class="searchbox" id="input" type="search" placeholder="Search Google or type a URL">
+
+  </div>
+
+
+</body>
